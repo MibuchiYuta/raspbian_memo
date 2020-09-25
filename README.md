@@ -1,0 +1,2 @@
+# raspbian_memo
+Raspberry pi3bをRaspbianで動かした時のメモ
