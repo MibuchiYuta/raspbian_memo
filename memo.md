@@ -1,3 +1,9 @@
+#  初期設定
+
+日本語設定
+sudo apt install language-pack-ja
+sudo update-locale LANG=ja_JP
+
 #Macからsshできなくなった時の対処法
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
