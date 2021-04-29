@@ -1,10 +1,15 @@
+# Macからsshできなくなった時の対処法
 
-
-#Macからsshできなくなった時の対処法
-
+'''bash
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  https://qiita.com/wnoguchi/items/690f3f4651f8f11e4ed3
-
-  ssh-keygen -R "192.168.11.10" のようにする
+ '''
+ 
+ これが出るとき以下のようにする。ip　addrはraspberry pi のもの
+ 
+ '''bash
+ ssh-keygen -R "192.168.11.10"
+ '''
+ 
+ 参考 https://qiita.com/wnoguchi/items/690f3f4651f8f11e4ed3
